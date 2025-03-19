@@ -1,0 +1,63 @@
+h1 {color:#B50719}
+p {color:#B50719}
+
+button {
+  background-color:#FFB8C9;
+  border:none;
+  color: white;
+}
+button:hover {
+  color:#B50719;
+}
+
+.bonbon-regular {
+  font-family: "bonbon", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-banner {
+background-image: url('Untitled-1.gif');
+background-size: contain;
+background-position:center;
+background-repeat:no-repeat;
+width: 100%;
+height: 100vh;
+display: flex; /* makes the boxes move with the screen? */
+justify-content: center;
+align-items: center;
+}
+
+.adjusting-opacity {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1; 
+}
+
+.ImageOne {
+  position:relative;
+  width:15%;
+  height:auto;
+  z-index:2;
+  }
+
+
+
+
+  .ImageTwo {
+    position:relative;
+    width:15%;
+    height:auto;
+    z-index:3;
+    
+  }
+
+  .ImageThree {
+    position:relative;
+    width:15%;
+    height:auto;
+    z-index:4;
+    
+  }
