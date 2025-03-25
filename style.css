@@ -39,24 +39,24 @@ align-items: center;
 .IMG1 {
   position:relative;
   width:15%;
+  max-width: 1000px;
   height:auto;
   z-index:2;
   }
 
-
-
-
-  .IMG2 {
+.IMG2 {
     position:relative;
     width:15%;
+    max-width: 1000px;
     height:auto;
     z-index:3;
     
   }
 
-  .IMG3 {
+.IMG3 {
     position:relative;
     width:15%;
+    max-width:1000px;
     height:auto;
     z-index:4;
     
