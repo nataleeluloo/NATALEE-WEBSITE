@@ -14,7 +14,8 @@ button:hover {
 }
 
 .header-text {
-  text-align: left;
+  position: relative;
+  text-align: center;
 }
 
 .bonbon-regular {
@@ -40,6 +41,10 @@ button:hover {
   }
 
 @media (max-width: 1025px) {
+  .header-text {
+    text-align: left;
+    padding-left: 50px;
+  }
     h1  {font-size: 32px;}
     p { font-size: 24px; }
     button { font-size: 18px }
