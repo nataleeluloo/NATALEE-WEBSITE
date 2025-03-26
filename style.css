@@ -29,6 +29,7 @@ height: 100vh;
 display: flex; /* makes the boxes move with the screen? */
 justify-content: center;
 align-items: center;
+z-index: 1;
 }
 
 .adjusting-opacity {
@@ -36,7 +37,7 @@ align-items: center;
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.5);
-  z-index: 1; 
+  z-index: 2; 
 }
 
 .images {
@@ -52,7 +53,7 @@ align-items: center;
   max-width: 1000px;
   height:auto;
   margin:10px;
-  z-index:2;
+  z-index:3;
   }
 
 @media (max-width: 1025px) {
