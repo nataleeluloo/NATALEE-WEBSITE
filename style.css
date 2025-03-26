@@ -39,33 +39,20 @@ align-items: center;
   z-index: 1; 
 }
 
-.IMG1 {
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.IMG1, .IMG2, .IMG3 {
   position:relative;
   width:15%;
   max-width: 1000px;
   height:auto;
   margin:10px;
   z-index:2;
-  }
-
-.IMG2 {
-    position:relative;
-    width:15%;
-    max-width: 1000px;
-    height:auto;
-    margin:10px;
-    z-index:3;
-    
-  }
-
-.IMG3 {
-    position:relative;
-    width:15%;
-    max-width:1000px;
-    height:auto;
-    margin: 10px;
-    z-index:4;
-    
   }
 
 @media (max-width: 1025px) {
@@ -93,6 +80,6 @@ align-items: center;
   .images {
     flex-direction: column;
     align-items: center;
-    margin: 10px;
+    gap: 10px;
   }
 }
