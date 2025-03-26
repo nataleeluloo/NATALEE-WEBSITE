@@ -1,3 +1,5 @@
+
+
 h1 {color:#B50719}
 p {color:#B50719}
 
@@ -5,6 +7,7 @@ button {
   background-color:#FFB8C9;
   border:none;
   color: white;
+  font-size: 18px;
 }
 button:hover {
   color:#B50719;
@@ -41,6 +44,7 @@ align-items: center;
   width:15%;
   max-width: 1000px;
   height:auto;
+  margin:10px;
   z-index:2;
   }
 
@@ -49,6 +53,7 @@ align-items: center;
     width:15%;
     max-width: 1000px;
     height:auto;
+    margin:10px;
     z-index:3;
     
   }
@@ -58,6 +63,36 @@ align-items: center;
     width:15%;
     max-width:1000px;
     height:auto;
+    margin: 10px;
     z-index:4;
     
   }
+
+@media (max-width: 1025px) {
+    h1  { font-size: 32px; }
+    p { font-size: 24px; }
+    button { font-size: 18px }
+}
+
+@media (max-width: 1024px) {
+  h1 {font-size: 26px; }
+  p {font-size: 20px; }
+  button {font-size: 16px}
+
+}
+
+@media (max-width: 600px) {
+  h1 {font-size: 20px }
+  p {font-size: 18px }
+  button {font-size: 14px}
+  .header-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+  .images {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+}
