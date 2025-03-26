@@ -13,6 +13,10 @@ button:hover {
   color:#B50719;
 }
 
+.header-text {
+  text-align: left;
+}
+
 .bonbon-regular {
   font-family: "bonbon", serif;
   font-weight: 400;
@@ -36,7 +40,7 @@ button:hover {
   }
 
 @media (max-width: 1025px) {
-    h1  { font-size: 32px; }
+    h1  {font-size: 32px;}
     p { font-size: 24px; }
     button { font-size: 18px }
 }
